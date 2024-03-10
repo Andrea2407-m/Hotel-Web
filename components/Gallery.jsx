@@ -31,42 +31,42 @@ export default function Gallery() {
 const itemData = [
   {
     id:1,
-    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+    img: "/Dhoma 101 (2).jpg",
     title: "Breakfast"
   },
   {
     id:2,
-    img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
+    img: "/Dhoma 101.jpg",
     title: "Burger"
   },
   {
     id:3,
-    img: "https://images.unsplash.com/photo-1522770179533-24471fcdba45",
+    img: "/Dhoma 102 (1).jpg",
     title: "Camera"
   },
   {
     id:4,
-    img: "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c",
+    img: "/Dhoma 105.jpg",
     title: "Coffee"
   },
   {
     id:5,
-    img: "https://images.unsplash.com/photo-1533827432537-70133748f5c8",
+    img: "/Dhoma 206.jpg",
     title: "Hats"
   },
   {
     id:6,
-    img: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62",
+    img: "/Dhoma 207 (2).jpg",
     title: "Honey"
   },
   {
     id:7,
-    img: "https://images.unsplash.com/photo-1533827432537-70133748f5c8",
+    img: "/Dhoma 210.jpg",
     title: "Hats"
   },
   {
     id:8,
-    img: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62",
+    img: "/Ballkoni 206.jpg",
     title: "Honey"
   },
  

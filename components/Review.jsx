@@ -30,7 +30,7 @@ export default function Review({reviews}) {
                       gap: 1
                     }}
                   >
-                    <Item key={review.id} elevation={8}><div className="font-bold">{`${review.title}`}</div>{`${review.content}`}</Item>
+                    <Item key={review.id} elevation={8}><div className="font-bold mb-2">{`${review.title}`}</div>{`${review.content}`}</Item>
                   </Box>
                 </ThemeProvider>
               </Grid>

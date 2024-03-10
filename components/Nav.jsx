@@ -16,11 +16,13 @@ import {
 } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Nav() {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
+  const [logo, setLogo]= useState("/Logo.png")
 
   const handleNav = () => {
     setNav(!nav);
@@ -31,9 +33,11 @@ export default function Nav() {
       if (window.scrollY >= 90) {
         setColor("#ffffff");
         setTextColor("#000000");
+        setLogo("/Logo2.png");
       } else {
         setColor("transparent");
         setTextColor("#ffffff");
+        setLogo("/Logo.png");
       }
     };
     window.addEventListener("scroll", changeColor);
@@ -57,7 +61,7 @@ export default function Nav() {
               color: `${textColor}`,
             }}
           >
-            Logo
+            <Image src={`${logo}`} alt={"Hotel Sala Sarand"}width={30} height={30}></Image>
           </Typography>
           <Typography
             variant="h6"
@@ -100,7 +104,7 @@ export default function Nav() {
               component="li"
               className="p-4"
             >
-             <Link href={'https://www.instagram.com/'} rel="noopener noreferrer" target="_blank" ><InstagramIcon /></Link>
+             <Link href={'https://www.instagram.com/hotel_sala/?hl=en'} rel="noopener noreferrer" target="_blank" ><InstagramIcon /></Link>
             </Typography>
           </Typography>
           <IconButton
@@ -148,7 +152,7 @@ export default function Nav() {
                   </Link>
                 </ListItemText>
               </ListItem>
-              <Link href={'https://www.instagram.com/'} rel="noopener noreferrer" target="_blank" ><InstagramIcon /></Link>
+              <Link href={'https://www.instagram.com/hotel_sala/?hl=en'} rel="noopener noreferrer" target="_blank" ><InstagramIcon /></Link>
             </List>
           </Typography>
         </Toolbar>

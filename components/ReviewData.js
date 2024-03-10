@@ -2,8 +2,8 @@ export const ReviewData = [
   {
    
       id: 1,
-      title: "What is Lorem Ipsum?",
-      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      title: "They treated me as family and that meant a lot to me",
+      content: "Very good and clean, all requests will be full filled if you asked, everything was on point with my room. I love the clean toilet and the white bed linen and towels. Staff was perfect and the host was friendly. Best value for money.",
     
     
     
@@ -11,8 +11,8 @@ export const ReviewData = [
   {
     
       id: 2,
-      title: "What is Lorem Ipsum?",
-      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      title: "Top choice,great location",
+      content: " Spotlessly clean rooms and the best location to stay in the city. Everything you need is within 1 min walk reach, bars, restaurants, beach etc. Close to the port boat station, taxis and buses. The host is helpful and will answer directly. Definitely recommend.",
     
     
     
