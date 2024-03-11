@@ -50,7 +50,7 @@ export default function Contact() {
         </Typography>
       </Grid>
       <Grid item>
-        <InstagramIcon />
+      <Link href={'https://www.instagram.com/hotel_sala/?hl=en'} rel="noopener noreferrer" target="_blank" ><InstagramIcon /></Link>
       </Grid>
     </Grid>
   );
